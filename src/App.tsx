@@ -1,19 +1,14 @@
-import PokemonCard from "./components/PokemonCard.tsx";
+import "./App.css";
+import PokemonCard from "./components/PokemonCard";
 
-function Pokemon() {
+function App() {
   return (
-    <div>
-      <figure>
-        <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-          alt="Green Pokémon Bulbasaur with  a white background"
-        />
-        <figcaption>
-          <p>Bulbasaur</p>
-        </figcaption>
-      </figure>
-    </div>
+    <>
+      <section>
+        <PokemonCard />
+      </section>
+    </>
   );
 }
 
-export default Pokemon;
+export default App;
